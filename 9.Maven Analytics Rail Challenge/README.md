@@ -1,10 +1,5 @@
 # Travel Trends Maven National Rail Insights for Rail Managers
-## Created & Analyzed by Saddam Ansari @Aspiring Data Analyst [Linkedin](https://www.linkedin.com/in/saddam-ansari-dataanalyst/)
-## Dashboard at Maven Analytics with documentations [Dashboard Live Link](https://mavenanalytics.io/project/15570)
-
-### Live Dashboard at Novypro [Live_link_Novypro](https://project.novypro.com/0kedOi)
-
-#
+## Created & Analyzed by Yash Sinha [Linkedin](https://www.linkedin.com/in/yashsinha2024/)
 
 ## About Maven National Rail
 ![Screenshot 2024-06-08 074717](https://github.com/user-saddam123/Travel-Trends-Maven-National-Rail-Insights-for-Rail-Managers/assets/123800896/b59075cd-dd08-4907-bd4f-d029fd2fc606)
@@ -249,26 +244,6 @@ Addressing these factors is crucial for improving overall service reliability an
 
 Understanding these patterns allows for better resource allocation and scheduling to accommodate peak demand periods.
 
-#
-
-**This project is the result of over 10+ days of hard work, and I invite you to 👍 like, share, and connect with me on [LinkedIn](https://www.linkedin.com/in/saddam-ansari-dataanalyst/).**
-
-I hope scrolling through this project provides you with insightful understanding.
-
-Thank you for taking the time to view my project.
-
-#
-
-
-## How you can help me:
-
-I've successfully completed over 55 Power BI projects, all showcased in my [Novypro portfolio](https://www.novypro.com/profile_projects/saddamansari). You're all invited to visit my portfolio and explore these amazing projects!
-
-**Additionally, I'm currently seeking internship or entry-level opportunities. If you have any opportunities available or need a freelance Power BI project completed, please connect with me on LinkedIn.**
-
-Looking forward to connecting with you all!
-
-#
 
 ### Created and Presented by-
 
