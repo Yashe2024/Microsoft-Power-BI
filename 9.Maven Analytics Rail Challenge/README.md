@@ -247,9 +247,7 @@ Understanding these patterns allows for better resource allocation and schedulin
 
 ### Created and Presented by-
 
-Saddam Ansari @Aspiring Data Analyst [LinkedIn](https://www.linkedin.com/in/saddam-ansari-dataanalyst/)
+Yash Sinha [LinkedIn](https://www.linkedin.com/in/yashsinha2024/)
 
 Location: India
-
-THE END
 
