@@ -1,6 +1,6 @@
 # Medicine-sales-Analysis-Dashboard-all-8-in-one-with-Link
 
-## Created & Analyzed by Saddam Ansari @Aspiring Data Analyst [Linkedin](https://www.linkedin.com/in/saddam-ansari-dataanalyst/)
+## Created & Analyzed by Saddam Ansari @Aspiring Data Analyst [Linkedin](https://www.linkedin.com/in/yashsinha2024/)
 
 ## Objective:
 The primary objective of the Medicine Sales Analysis Dashboard is to consolidate multiple analytical dashboards into a single, comprehensive repository. This approach aims to provide viewers with an easy-to-navigate and unified view of all critical sales data insights in one place
@@ -82,20 +82,13 @@ The primary objective of the Medicine Sales Analysis Dashboard is to consolidate
 
 ✨➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖✨
 
-**This project is the result of over 27-28 days of hard work, and I invite you to 👍 like, share, and connect with me on [LinkedIn](https://www.linkedin.com/in/saddam-ansari-dataanalyst/).**
+**This project is the result of over 27-28 days of hard work, and I invite you to 👍 like, share, and connect with me on [LinkedIn](https://www.linkedin.com/in/yashsinha2024).**
 
-## How you can help me:
-
-I've successfully completed over **65 Power BI projects**, all showcased in my [Novypro portfolio](https://www.novypro.com/profile_projects/saddamansari). You're all invited to visit my portfolio and explore these amazing projects!
-
-**Additionally, I'm currently seeking internship or entry-level opportunities. If you have any opportunities available or need a freelance Power BI project completed, please connect with me on LinkedIn.**
-
-Looking forward to connecting with you all!
 
 #
 
 ### Created and Presented by-
 
-Saddam Ansari @Aspiring Data Analyst [LinkedIn](https://www.linkedin.com/in/saddam-ansari-dataanalyst/)
+Yash Sinha [LinkedIn](https://www.linkedin.com/in/yashsinha2024/)
 
 Location: India
