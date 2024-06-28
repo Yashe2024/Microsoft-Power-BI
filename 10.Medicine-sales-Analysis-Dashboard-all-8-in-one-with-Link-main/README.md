@@ -1,13 +1,11 @@
 # Medicine-sales-Analysis-Dashboard-all-8-in-one-with-Link
 
-## Created & Analyzed by Yash Sinha [Linkedin](https://www.linkedin.com/in/yashsinha2024/)
+## Created & Analyzed by Saddam Ansari @Aspiring Data Analyst [Linkedin](https://www.linkedin.com/in/yashsinha2024/)
 
 ## Objective:
 The primary objective of the Medicine Sales Analysis Dashboard is to consolidate multiple analytical dashboards into a single, comprehensive repository. This approach aims to provide viewers with an easy-to-navigate and unified view of all critical sales data insights in one place
 
 ✨➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖✨
-
-## Dashboard Normal [Live Link](https://project.novypro.com/KnF4wU)
 
 ![Screenshot 2024-06-01 073237](https://github.com/user-saddam123/Medicine-sales-Analysis-Dashboard-all-8-in-one-with-Link/assets/123800896/b3025a1f-8ece-44f6-8ab7-e717be87cb05)
 
