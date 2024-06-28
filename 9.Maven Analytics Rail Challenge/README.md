@@ -1,5 +1,5 @@
 # Travel Trends Maven National Rail Insights for Rail Managers
-## Created & Analyzed by Saddam Ansari @Aspiring Data Analyst [Linkedin](https://www.linkedin.com/in/saddam-ansari-dataanalyst/)
+## Created & Analyzed by Yash Sinha [Linkedin]([https://www.linkedin.com/in/yashsinha2024/](https://www.linkedin.com/in/yashsinha2024/))
 ## Dashboard at Maven Analytics with documentations [Dashboard Live Link](https://mavenanalytics.io/project/15570)
 
 ### Live Dashboard at Novypro [Live_link_Novypro](https://project.novypro.com/0kedOi)
@@ -251,7 +251,7 @@ Understanding these patterns allows for better resource allocation and schedulin
 
 #
 
-**This project is the result of over 10+ days of hard work, and I invite you to 👍 like, share, and connect with me on [LinkedIn](https://www.linkedin.com/in/saddam-ansari-dataanalyst/).**
+**This project is the result of over 10+ days of hard work, and I invite you to 👍 like, share, and connect with me on [LinkedIn](https://www.linkedin.com/in/yashsinha2024/).**
 
 I hope scrolling through this project provides you with insightful understanding.
 
@@ -272,7 +272,7 @@ Looking forward to connecting with you all!
 
 ### Created and Presented by-
 
-Saddam Ansari @Aspiring Data Analyst [LinkedIn](https://www.linkedin.com/in/saddam-ansari-dataanalyst/)
+Yash Sinha [LinkedIn](https://www.linkedin.com/in/yashsinha2024/)
 
 Location: India
 
