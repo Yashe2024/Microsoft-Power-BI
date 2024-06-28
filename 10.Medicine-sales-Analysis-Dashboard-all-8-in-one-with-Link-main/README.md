@@ -1,6 +1,6 @@
 # Medicine-sales-Analysis-Dashboard-all-8-in-one-with-Link
 
-## Created & Analyzed by Saddam Ansari @Aspiring Data Analyst [Linkedin](https://www.linkedin.com/in/yashsinha2024/)
+## Created & Analyzed by Yash Sinha [Linkedin](https://www.linkedin.com/in/yashsinha2024/)
 
 ## Objective:
 The primary objective of the Medicine Sales Analysis Dashboard is to consolidate multiple analytical dashboards into a single, comprehensive repository. This approach aims to provide viewers with an easy-to-navigate and unified view of all critical sales data insights in one place
