@@ -37,8 +37,13 @@ You can explore the detailed insights and findings from this project through the
 (https://app.powerbi.com/view?r=eyJrIjoiNTVjZjM1YjktMmVhOS00ZWJjLThhNDUtMjg4ODcwMmYxMmNlIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 📌 Key Learnings from the Project:
+
 🔹 Developing Predictive Models for Demand Forecasting
+
 🔹 Implementing Dynamic Pricing Strategies 
+
 🔹 Creating Customer Segmentation for Targeted Marketing
+
 🔹 Designing Interactive Dashboards for Real-Time Monitoring 
+
 🔹 Enhancing Service Quality Through Data-Driven Feedback Analysis
