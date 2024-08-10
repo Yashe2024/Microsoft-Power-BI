@@ -1,6 +1,7 @@
 Hotel Performance Analysis and Optimization
 
 Summary:
+
 The hospitality industry is highly competitive, with success depending on the effective management of bookings, room availability, customer satisfaction, and revenue. 
 This business case outlines how the analysis of the provided datasets—dim_date, dim_hotels, dim_rooms, fact_aggregated_bookings, and fact_bookings—can be leveraged to gain insights into hotel performance, optimize operations, and improve profitability. 
 The key objectives are to analyze booking trends, optimize room utilization, assess customer satisfaction, and maximize revenue realization.
@@ -34,7 +35,7 @@ Here’s an overview of the project:
 
 
 You can explore the detailed insights and findings from this project through the interactive dashboard 
-(https://app.powerbi.com/view?r=eyJrIjoiNTVjZjM1YjktMmVhOS00ZWJjLThhNDUtMjg4ODcwMmYxMmNlIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
+https://app.powerbi.com/view?r=eyJrIjoiNTVjZjM1YjktMmVhOS00ZWJjLThhNDUtMjg4ODcwMmYxMmNlIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9
 
 📌 Key Learnings from the Project:
 
