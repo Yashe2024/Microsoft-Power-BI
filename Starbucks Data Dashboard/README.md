@@ -1,8 +1,8 @@
 # Starbucks Dashboard STY_01
 
-## Created & Analyzed by Saddam Ansari @Data and Reporting Analyst [Linkedin](https://www.linkedin.com/in/saddam-ansari-dataanalyst/)
+## Created & Analyzed by Saddam Ansari @Data and Reporting Analyst [Linkedin](https://www.linkedin.com/in/yashsinha2024/)
 
-### Live Dashboard at Novypro [Live_link_Novypro](https://project.novypro.com/3hn2FL)
+### Live Dashboard at Novypro [Live_link_Novypro]([https://www.novypro.com/manage_my_profile/yash-4.])
 
 #
 ## Project Objective
@@ -73,17 +73,8 @@ The Starbucks Dashboard provides an in-depth analysis of the nutritional content
 
 ## How you can help me:
 
-I've successfully completed over **80 Power BI projects**, all showcased in my [Novypro portfolio](https://www.novypro.com/profile_projects/saddamansari). You're all invited to visit my portfolio and explore these amazing projects!
-
-**Additionally, I'm currently seeking internship or entry-level opportunities. If you have any opportunities available or need a freelance Power BI project completed, please connect with me on LinkedIn.**
-
-Looking forward to connecting with you all!
+I've successfully completed over **80 Power BI projects**, all showcased in my [Novypro portfolio]([https://www.novypro.com/manage_my_profile/yash-4.]). You're all invited to visit my portfolio and explore these amazing projects!
 
 #
 
-[🔁Home](#table-of-contents)
-
-### Created and Presented by-
-
-Saddam Ansari @Aspiring Data Analyst [LinkedIn](https://www.linkedin.com/in/saddam-ansari-dataanalyst/)
 
