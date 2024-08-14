@@ -8,16 +8,17 @@ The objective of this project is to analyze and visualize the nutritional conten
 
 ## Dashboard Overview Look:
 ### Page One:
-(![1](https://github.com/user-attachments/assets/ad89cf37-d750-48d1-9463-798a2236afb7)
+![1](https://github.com/user-attachments/assets/ad89cf37-d750-48d1-9463-798a2236afb7)
 
 ### Page Two:
-(![2](https://github.com/user-attachments/assets/9183eb66-95ee-4d26-a926-2f1de8702d2c)
+![2](https://github.com/user-attachments/assets/9183eb66-95ee-4d26-a926-2f1de8702d2c)
 
 ### Page Three:
-(![3](https://github.com/user-attachments/assets/378873fd-4c1e-4d31-bf8b-0a77d49634d2)
+![3](https://github.com/user-attachments/assets/378873fd-4c1e-4d31-bf8b-0a77d49634d2)
 
 #
 
+## Description of dataset used in Dashboard :
 
 The dataset contains detailed nutritional information for a wide range of Starbucks beverages. It includes various metrics such as calories, caffeine content, carbohydrates, total fat, protein, vitamins, and other nutritional values. The data is categorized by beverage types and sizes, offering a comprehensive overview of the nutritional content of Starbucks drinks.
 
