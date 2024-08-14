@@ -1,6 +1,6 @@
 Starbucks Data Dashboard 
 
-### Live Dashboard at Novypro [Live_link_Novypro]([https://project.novypro.com/3hn2FL](https://www.novypro.com/manage_my_profile/yash-4))
+### Live Dashboard at Novypro [Novypro portfolio]([https://www.novypro.com/manage_my_profile/yash-4](https://www.novypro.com/profile_about/yash-4)
 
 #
 ## Project Objective
@@ -71,7 +71,7 @@ The Starbucks Dashboard provides an in-depth analysis of the nutritional content
 
 ## How you can help me:
 
-I've successfully completed over **80 Power BI projects**, all showcased in my [Novypro portfolio](https://www.novypro.com/manage_my_profile/yash-4). You're all invited to visit my portfolio and explore these amazing projects!
+I've successfully completed over **80 Power BI projects**, all showcased in my [Novypro portfolio]([https://www.novypro.com/manage_my_profile/yash-4](https://www.novypro.com/profile_about/yash-4). You're all invited to visit my portfolio and explore these amazing projects!
 
 
 Looking forward to connecting with you all!
