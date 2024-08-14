@@ -11,19 +11,17 @@ The objective of this project is to analyze and visualize the nutritional conten
 ## Dashboard Overview Look:
 ### Page One:
 
-(![1](https://github.com/user-attachments/assets/7bec6866-0d8b-4be4-abc8-2eda8454da9e)
-)
-)
+![1](https://github.com/user-attachments/assets/7bec6866-0d8b-4be4-abc8-2eda8454da9e)
+
 
 ### Page Two:
-(![2](https://github.com/user-attachments/assets/0f60f616-7d8e-4d47-b8b5-0324641adc3c)
-)
-)
+![2](https://github.com/user-attachments/assets/0f60f616-7d8e-4d47-b8b5-0324641adc3c)
+
 
 ### Page Three:
 (https://github.com/user-attachments/assets/a26e05a3-4989-49d9-9a4e-018f2c5c5fd2)
 
-)
+
 
 #
 
