@@ -1,9 +1,4 @@
-# Starbucks Dashboard STY_01
-
-## Created & Analyzed by Saddam Ansari @Data and Reporting Analyst [Linkedin](https://www.linkedin.com/in/yashsinha2024/)
-
-### Live Dashboard at Novypro [Live_link_Novypro]([https://www.novypro.com/manage_my_profile/yash-4])
-
+# Starbucks Data Dashboard 
 #
 ## Project Objective
 
@@ -14,13 +9,13 @@ The objective of this project is to analyze and visualize the nutritional conten
 ## Dashboard Overview Look:
 ### Page One:
 
-![Screenshot 2024-07-30 160822](https://github.com/user-attachments/assets/6cee16bd-a71e-4594-8cb3-f3b1a9d0741c)
+![Screenshot 2024-07-30 160822](![1](https://github.com/user-attachments/assets/ad89cf37-d750-48d1-9463-798a2236afb7))
 
 ### Page Two:
-![Screenshot 2024-07-30 160838](https://github.com/user-attachments/assets/614165ef-74d7-4660-94ff-2a9c2f938216)
+![Screenshot 2024-07-30 160838](![2](https://github.com/user-attachments/assets/9183eb66-95ee-4d26-a926-2f1de8702d2c))
 
 ### Page Three:
-![Screenshot 2024-07-30 160854](https://github.com/user-attachments/assets/6066a332-7e52-4dd8-9e75-0e2797e9f8ee)
+![Screenshot 2024-07-30 160854](![3](https://github.com/user-attachments/assets/378873fd-4c1e-4d31-bf8b-0a77d49634d2))
 
 #
 
@@ -71,7 +66,6 @@ The Starbucks Dashboard provides an in-depth analysis of the nutritional content
 
 #
 
-## How you can help me:
 
 I've successfully completed over **80 Power BI projects**, all showcased in my [Novypro portfolio]([https://www.novypro.com/manage_my_profile/yash-4.]). You're all invited to visit my portfolio and explore these amazing projects!
 
