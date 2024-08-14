@@ -2,7 +2,7 @@
 
 ## Created & Analyzed by Saddam Ansari @Data and Reporting Analyst [Linkedin](https://www.linkedin.com/in/yashsinha2024/)
 
-### Live Dashboard at Novypro [Live_link_Novypro]([https://www.novypro.com/manage_my_profile/yash-4.])
+### Live Dashboard at Novypro [Live_link_Novypro]([https://www.novypro.com/manage_my_profile/yash-4])
 
 #
 ## Project Objective
