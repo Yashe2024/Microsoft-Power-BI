@@ -19,7 +19,7 @@ The objective of this project is to analyze and visualize the nutritional conten
 
 
 ### Page Three:
-(https://github.com/user-attachments/assets/a26e05a3-4989-49d9-9a4e-018f2c5c5fd2)
+![3](https://github.com/user-attachments/assets/a26e05a3-4989-49d9-9a4e-018f2c5c5fd2)
 
 
 
