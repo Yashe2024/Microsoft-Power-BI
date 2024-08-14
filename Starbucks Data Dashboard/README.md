@@ -78,6 +78,3 @@ Looking forward to connecting with you all!
 
 #
 
-[🔁Home](#table-of-contents)
-
-
