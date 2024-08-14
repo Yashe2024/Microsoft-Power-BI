@@ -1,31 +1,28 @@
-# Starbucks Dashboard STY_01
-
-## Created & Analyzed by Saddam Ansari @Data and Reporting Analyst [Linkedin](https://www.linkedin.com/in/saddam-ansari-dataanalyst/)
+Starbucks Data Dashboard 
 
 ### Live Dashboard at Novypro [Live_link_Novypro](https://project.novypro.com/3hn2FL)
 
 #
 ## Project Objective
 
-The objective of this project is to analyze and visualize the nutritional content of various Starbucks beverages using Power BI. The goal is to provide insightful and visually appealing representations of key nutritional metrics, enabling better understanding and healthier choices for consumers. This project is part of the Onyx Data Challenge from January 2023.
-
+The objective of this project is to analyze and visualize the nutritional content of various Starbucks beverages using Power BI. The goal is to provide insightful and visually appealing representations of key nutritional metrics, enabling better understanding and healthier choices for consumers.
 #
 
 ## Dashboard Overview Look:
 ### Page One:
 
-![Screenshot 2024-07-30 160822](https://github.com/user-attachments/assets/6cee16bd-a71e-4594-8cb3-f3b1a9d0741c)
+![Screenshot 2024-07-30 160822]([STARBUCKS Analysis.pdf](https://github.com/user-attachments/files/16615097/STARBUCKS.Analysis.pdf)
+)
 
 ### Page Two:
-![Screenshot 2024-07-30 160838](https://github.com/user-attachments/assets/614165ef-74d7-4660-94ff-2a9c2f938216)
+![Screenshot 2024-07-30 160838]([STARBUCKS Analysis.pdf](https://github.com/user-attachments/files/16615097/STARBUCKS.Analysis.pdf)
+)
 
 ### Page Three:
-![Screenshot 2024-07-30 160854](https://github.com/user-attachments/assets/6066a332-7e52-4dd8-9e75-0e2797e9f8ee)
+![Screenshot 2024-07-30 160854]([STARBUCKS Analysis.pdf](https://github.com/user-attachments/files/16615097/STARBUCKS.Analysis.pdf)
+)
 
 #
-
-## About the Dataset
-![Screenshot 2024-07-30 152648](https://github.com/user-attachments/assets/97b0318d-7bab-49bd-ba53-ca679178a611)
 
 The dataset contains detailed nutritional information for a wide range of Starbucks beverages. It includes various metrics such as calories, caffeine content, carbohydrates, total fat, protein, vitamins, and other nutritional values. The data is categorized by beverage types and sizes, offering a comprehensive overview of the nutritional content of Starbucks drinks.
 
@@ -73,7 +70,7 @@ The Starbucks Dashboard provides an in-depth analysis of the nutritional content
 
 ## How you can help me:
 
-I've successfully completed over **80 Power BI projects**, all showcased in my [Novypro portfolio](https://www.novypro.com/profile_projects/saddamansari). You're all invited to visit my portfolio and explore these amazing projects!
+I've successfully completed over **80 Power BI projects**, all showcased in my [Novypro portfolio](https://www.novypro.com/manage_my_profile/yash-4). You're all invited to visit my portfolio and explore these amazing projects!
 
 **Additionally, I'm currently seeking internship or entry-level opportunities. If you have any opportunities available or need a freelance Power BI project completed, please connect with me on LinkedIn.**
 
@@ -83,7 +80,4 @@ Looking forward to connecting with you all!
 
 [🔁Home](#table-of-contents)
 
-### Created and Presented by-
-
-Saddam Ansari @Aspiring Data Analyst [LinkedIn](https://www.linkedin.com/in/saddam-ansari-dataanalyst/)
 
