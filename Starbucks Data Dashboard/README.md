@@ -2,7 +2,7 @@
 #
 ## Project Objective
 
-The objective of this project is to analyze and visualize the nutritional content of various Starbucks beverages using Power BI. The goal is to provide insightful and visually appealing representations of key nutritional metrics, enabling better understanding and healthier choices for consumers. This project is part of the Onyx Data Challenge from January 2023.
+The objective of this project is to analyze and visualize the nutritional content of various Starbucks beverages using Power BI. The goal is to provide insightful and visually appealing representations of key nutritional metrics, enabling better understanding and healthier choices for consumers. 
 
 #
 
