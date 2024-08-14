@@ -1,7 +1,7 @@
 Starbucks Data Dashboard 
 
-### Live Dashboard at Novypro [Novypro portfolio]([https://www.novypro.com/manage_my_profile/yash-4](https://www.novypro.com/profile_about/yash-4)
-
+### Live Dashboard at Novypro [Novypro portfolio]([https://www.novypro.com/manage_my_profile/yash-4](https://www.novypro.com/profile_about/yash-4
+)
 #
 ## Project Objective
 
