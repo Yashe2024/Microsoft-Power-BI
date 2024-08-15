@@ -47,7 +47,9 @@ Basic understanding of data visualization concepts
 Optional: Power BI Pro license for advanced features and sharing capabilities
 
 ******Data Analysis and Business Optimization Projects******
+
 I have undertaken a diverse range of projects, each focusing on different aspects of business performance, customer experience, and financial management. 
+
 Below is a summary of the work you've done:
 
 1. Booking Analytics and Revenue Optimization
