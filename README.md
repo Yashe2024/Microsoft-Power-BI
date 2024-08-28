@@ -14,12 +14,6 @@ Examples: Sample Power BI reports and dashboards showcasing different features a
 
 Resources: Additional resources such as best practices, tips, and tricks for working with Power BI.
 
-******Getting Started**
-Clone the Repository: To get started, clone this repository to your local machine using:
-
-bash
-Copy code
-git clone https://github.com/YourUsername/Microsoft-Power-BI.git
 Explore the Files: Navigate through the repository to find tutorials, templates, and examples. Open the respective files or folders to view the content.
 
 Follow the Tutorials: Start with the tutorials to learn how to use Power BI effectively. These guides will walk you through various aspects of Power BI, from basic setup to advanced features.
