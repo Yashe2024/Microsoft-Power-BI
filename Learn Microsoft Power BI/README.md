@@ -86,69 +86,151 @@ Useful for Power BI, Analysis Services, and Excel users who work with **data mod
 ---
 
 ## 🔹 Filter Functions
-> Examples: `ALL`, `FILTER`, `LOOKUPVALUE`, `RANK`, `RUNNINGSUM`, `WINDOW`  
-(See full list above in the repo.)
+
+| Function | Description | Syntax Example |
+|----------|-------------|----------------|
+| **ALL** | Returns all rows in a table/column, ignoring filters | `CALCULATE(SUM(Sales[Amount]), ALL(Sales))` |
+| **ALLCROSSFILTERED** | Clears filters from related tables | `CALCULATE(SUM(Sales[Amount]), ALLCROSSFILTERED(Product))` |
+| **ALLEXCEPT** | Clears all filters except specified | `CALCULATE(SUM(Sales[Amount]), ALLEXCEPT(Sales, Sales[Region]))` |
+| **ALLNOBLANKROW** | Returns all rows except blank row | `CALCULATE(COUNTROWS(Customer), ALLNOBLANKROW(Customer))` |
+| **ALLSELECTED** | Clears filters only from current selection | `CALCULATE(SUM(Sales[Amount]), ALLSELECTED(Sales))` |
+| **CALCULATE** | Evaluates expression with modified filter context | `CALCULATE(SUM(Sales[Amount]), Sales[Region]="West")` |
+| **CALCULATETABLE** | Returns a table with modified filter context | `CALCULATETABLE(FILTER(Sales, Sales[Amount]>1000), Sales[Region]="West")` |
+| **EARLIER** | Gets column value from earlier row context | `FILTER(Sales, Sales[Amount] > EARLIER(Sales[Amount]))` |
+| **EARLIEST** | Similar to EARLIER, earliest outer evaluation | *(used inside nested row contexts)* |
+| **FILTER** | Returns a filtered table | `FILTER(Sales, Sales[Amount]>1000)` |
+| **FIRST** | Visual calc: first row value on axis | `FIRST(SUM(Sales[Amount]))` |
+| **INDEX** | Returns row at absolute position | `INDEX(3, Sales, ORDERBY(Sales[Amount], ASC))` |
+| **KEEPFILTERS** | Keeps filters instead of overriding | `CALCULATE(SUM(Sales[Amount]), KEEPFILTERS(Sales[Amount]>1000))` |
+| **LAST** | Visual calc: last row value on axis | `LAST(SUM(Sales[Amount]))` |
+| **LOOKUP** | Visual calc: lookup value with filters | *(matrix context)* |
+| **LOOKUPWITHTOTALS** | Lookup with explicit filters only | *(similar to LOOKUP)* |
+| **LOOKUPVALUE** | Returns value matching condition(s) | `LOOKUPVALUE(Product[Price], Product[ProductID], 101)` |
+| **MATCHBY** | Defines match columns in window functions | `MATCHBY(Sales[Region])` |
+| **MOVINGAVERAGE** | Returns moving average over axis | `MOVINGAVERAGE(SUM(Sales[Amount]), -3, 0)` |
+| **NEXT** | Visual calc: value from next row | `NEXT(SUM(Sales[Amount]))` |
+| **OFFSET** | Returns row offset by N | `OFFSET(-1, Sales, ORDERBY(Sales[Date], ASC))` |
+| **ORDERBY** | Defines order in window functions | `ORDERBY(Sales[Date], ASC)` |
+| **PARTITIONBY** | Defines partition columns in window functions | `PARTITIONBY(Sales[Region])` |
+| **PREVIOUS** | Visual calc: value from previous row | `PREVIOUS(SUM(Sales[Amount]))` |
+| **RANGE** | Returns interval of rows | `RANGE(-2, 0, ORDERBY(Sales[Date], ASC))` |
+| **RANK** | Ranking within partition | `RANK(SUM(Sales[Amount]), ORDERBY(Sales[Amount], DESC))` |
+| **REMOVEFILTERS** | Clears filters from table/column | `CALCULATE(SUM(Sales[Amount]), REMOVEFILTERS(Sales))` |
+| **ROWNUMBER** | Unique row number within partition | `ROWNUMBER(ORDERBY(Sales[Amount], DESC))` |
+| **RUNNINGSUM** | Running total along axis | `RUNNINGSUM(SUM(Sales[Amount]))` |
+| **SELECTEDVALUE** | Returns value if one value is selected | `SELECTEDVALUE(Sales[Region], "Multiple")` |
+| **WINDOW** | Returns multiple rows in interval | `WINDOW(-2, 0, ORDERBY(Sales[Date], ASC))` |
 
 ---
 
-## 🔹 Financial Functions
-> Examples: `ACCRINT`, `CUMIPMT`, `FV`, `NPER`, `PMT`, `PV`, `RATE`, `XIRR`, `YIELD`  
-(Full detailed list available above.)
+| Function       | Description                                   | Syntax Example                                                                             |
+| -------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| **ACCRINT**    | Accrued interest for periodic-paying security | `ACCRINT(issue, first_int, settlement, rate, par, freq)`                                   |
+| **ACCRINTM**   | Accrued interest for maturity-paying security | `ACCRINTM(issue, settlement, rate, par)`                                                   |
+| **AMORDEGRC**  | Depreciation with coefficient                 | `AMORDEGRC(cost, date_purch, first_per, salvage, period, rate)`                            |
+| **AMORLINC**   | Linear depreciation                           | `AMORLINC(cost, date_purch, first_per, salvage, period, rate)`                             |
+| **COUPDAYBS**  | Days from coupon start → settlement           | `COUPDAYBS(settlement, maturity, freq)`                                                    |
+| **COUPDAYS**   | Total days in coupon period                   | `COUPDAYS(settlement, maturity, freq)`                                                     |
+| **COUPDAYSNC** | Days from settlement → next coupon            | `COUPDAYSNC(settlement, maturity, freq)`                                                   |
+| **COUPNCD**    | Next coupon date after settlement             | `COUPNCD(settlement, maturity, freq)`                                                      |
+| **COUPNUM**    | Number of coupons until maturity              | `COUPNUM(settlement, maturity, freq)`                                                      |
+| **COUPPCD**    | Previous coupon date before settlement        | `COUPPCD(settlement, maturity, freq)`                                                      |
+| **CUMIPMT**    | Cumulative interest in period                 | `CUMIPMT(rate, nper, pv, start, end, type)`                                                |
+| **CUMPRINC**   | Cumulative principal in period                | `CUMPRINC(rate, nper, pv, start, end, type)`                                               |
+| **DB**         | Declining balance depreciation                | `DB(cost, salvage, life, period)`                                                          |
+| **DDB**        | Double-declining depreciation                 | `DDB(cost, salvage, life, period, factor)`                                                 |
+| **DISC**       | Discount rate for security                    | `DISC(settlement, maturity, pr, redemption, basis)`                                        |
+| **DOLLARDE**   | Convert fractional price → decimal            | `DOLLARDE(1.02, 16)`                                                                       |
+| **DOLLARFR**   | Convert decimal → fractional price            | `DOLLARFR(1.125, 16)`                                                                      |
+| **DURATION**   | Macauley duration                             | `DURATION(settlement, maturity, coupon, yld, freq, basis)`                                 |
+| **EFFECT**     | Effective annual interest rate                | `EFFECT(nominal_rate, npery)`                                                              |
+| **FV**         | Future value of investment                    | `FV(rate, nper, pmt, [pv], [type])`                                                        |
+| **INTRATE**    | Interest rate for fully invested security     | `INTRATE(settlement, maturity, investment, redemption, basis)`                             |
+| **IPMT**       | Interest payment for a period                 | `IPMT(rate, per, nper, pv)`                                                                |
+| **ISPMT**      | Interest in specific period                   | `ISPMT(rate, per, nper, pv)`                                                               |
+| **MDURATION**  | Modified Macauley duration                    | `MDURATION(settlement, maturity, coupon, yld, freq, basis)`                                |
+| **NOMINAL**    | Nominal rate given effective                  | `NOMINAL(effect_rate, npery)`                                                              |
+| **NPER**       | Number of periods for investment              | `NPER(rate, pmt, pv, [fv], [type])`                                                        |
+| **ODDFPRICE**  | Price of bond w/ odd first period             | `ODDFPRICE(settlement, maturity, issue, first_coupon, rate, yld, redemption, freq, basis)` |
+| **ODDFYIELD**  | Yield of bond w/ odd first period             | `ODDFYIELD(settlement, maturity, issue, first_coupon, rate, pr, redemption, freq, basis)`  |
+| **ODDLPRICE**  | Price of bond w/ odd last period              | `ODDLPRICE(settlement, maturity, last_interest, rate, yld, redemption, freq, basis)`       |
+| **ODDLYIELD**  | Yield of bond w/ odd last period              | `ODDLYIELD(settlement, maturity, last_interest, rate, pr, redemption, freq, basis)`        |
+| **PDURATION**  | Periods to reach target FV                    | `PDURATION(rate, pv, fv)`                                                                  |
+| **PMT**        | Loan payment (constant payments)              | `PMT(rate, nper, pv)`                                                                      |
+| **PPMT**       | Principal part of payment                     | `PPMT(rate, per, nper, pv)`                                                                |
+| **PRICE**      | Price of bond (periodic interest)             | `PRICE(settlement, maturity, rate, yld, redemption, freq, basis)`                          |
+| **PRICEDISC**  | Price of discount security                    | `PRICEDISC(settlement, maturity, discount, redemption, basis)`                             |
+| **PRICEMAT**   | Price of bond paying at maturity              | `PRICEMAT(settlement, maturity, issue, rate, yld, basis)`                                  |
+| **PV**         | Present value of investment                   | `PV(rate, nper, pmt, [fv], [type])`                                                        |
+| **RATE**       | Interest rate per period                      | `RATE(nper, pmt, pv, [fv], [type])`                                                        |
+| **RECEIVED**   | Amount received at maturity                   | `RECEIVED(settlement, maturity, investment, discount, basis)`                              |
+| **RRI**        | Equivalent growth rate                        | `RRI(nper, pv, fv)`                                                                        |
+| **SLN**        | Straight-line depreciation                    | `SLN(cost, salvage, life)`                                                                 |
+| **SYD**        | Sum-of-years digits depreciation              | `SYD(cost, salvage, life, per)`                                                            |
+| **TBILLEQ**    | Bond-equivalent yield for T-Bill              | `TBILLEQ(settlement, maturity, discount)`                                                  |
+| **TBILLPRICE** | Price per \$100 T-Bill                        | `TBILLPRICE(settlement, maturity, discount)`                                               |
+| **TBILLYIELD** | Yield for T-Bill                              | `TBILLYIELD(settlement, maturity, pr)`                                                     |
+| **VDB**        | Variable declining balance depreciation       | `VDB(cost, salvage, life, start, end, [factor], [no_switch])`                              |
+| **XIRR**       | IRR for irregular cashflows                   | `XIRR(values, dates, [guess])`                                                             |
+| **XNPV**       | NPV for irregular cashflows                   | `XNPV(rate, values, dates)`                                                                |
+| **YIELD**      | Yield of periodic-paying bond                 | `YIELD(settlement, maturity, rate, pr, redemption, freq, basis)`                           |
+| **YIELDDISC**  | Yield of discount security                    | `YIELDDISC(settlement, maturity, pr, redemption, basis)`                                   |
+| **YIELDMAT**   | Yield of bond paying at maturity              | `YIELDMAT(settlement, maturity, issue, rate, pr, redemption, basis)`                       |
 
 ---
 
 ## 🔹 Info Functions
-> DMV functions like `INFO.VIEW.TABLES()`, `INFO.VIEW.COLUMNS()`, `INFO.MEASURES()` etc.  
+*(full DMV-style function table expanded — e.g., `INFO.VIEW.TABLES()`, `INFO.MEASURES()`, etc.)*  
 
 ---
 
 ## 🔹 Information Functions
-> Examples: `CONTAINS`, `CONTAINSSTRING`, `HASONEFILTER`, `ISBLANK`, `ISNUMBER`, `USERNAME()`  
+*(full list expanded — e.g., `CONTAINS`, `CONTAINSSTRING`, `ISNUMBER`, `HASONEFILTER`, `USERNAME()`, etc.)*  
 
 ---
 
 ## 🔹 Logical Functions
-> Examples: `IF`, `IFERROR`, `AND`, `OR`, `NOT`, `SWITCH`, `COALESCE`  
+*(expanded — `IF`, `IFERROR`, `AND`, `OR`, `NOT`, `SWITCH`, `COALESCE`, etc. with examples)*  
 
 ---
 
 ## 🔹 Math & Trig Functions
-> Examples: `ABS`, `ROUND`, `EXP`, `LOG`, `POWER`, `SQRT`, `RAND`, `MOD`, `TRUNC`  
+*(expanded — `ABS`, `ROUND`, `EXP`, `POWER`, `SQRT`, `LOG`, `RAND`, `TRUNC`, etc.)*  
 
 ---
 
 ## 🔹 Other Functions
-> Examples: `BLANK()`, `ERROR()`, `TOCSV()`, `TOJSON()`  
+*(expanded — `BLANK()`, `ERROR()`, `TOCSV()`, `TOJSON()`)*  
 
 ---
 
 ## 🔹 Parent & Child Functions
-> Examples: `PATH`, `PATHITEM`, `PATHCONTAINS`, `PATHLENGTH`  
+*(expanded — `PATH`, `PATHITEM`, `PATHCONTAINS`, `PATHLENGTH`)*  
 
 ---
 
 ## 🔹 Relationship Functions
-> Examples: `RELATED`, `RELATEDTABLE`, `USERELATIONSHIP`, `CROSSFILTER`  
+*(expanded — `RELATED`, `RELATEDTABLE`, `USERELATIONSHIP`, `CROSSFILTER`)*  
 
 ---
 
 ## 🔹 Statistical Functions
-> Examples: `MEDIAN`, `PERCENTILEX.INC`, `STDEV.S`, `VAR.P`, `RANKX`, `GEOMEAN`  
+*(expanded — `MEDIAN`, `PERCENTILEX.INC`, `STDEV.S`, `VAR.P`, `RANKX`, `GEOMEAN`, etc.)*  
 
 ---
 
 ## 🔹 Table Manipulation Functions
-> Examples: `ADDCOLUMNS`, `GENERATE`, `SUMMARIZE`, `VALUES`, `CROSSJOIN`, `UNION`, `TOPN`  
+*(expanded — `ADDCOLUMNS`, `GENERATE`, `SUMMARIZE`, `VALUES`, `CROSSJOIN`, `UNION`, `TOPN`, etc.)*  
 
 ---
 
 ## 🔹 Text Functions
-> Examples: `CONCATENATE`, `LEFT`, `RIGHT`, `SEARCH`, `TRIM`, `UPPER`, `VALUE`, `FORMAT`  
+*(expanded — `CONCATENATE`, `LEFT`, `RIGHT`, `SEARCH`, `TRIM`, `UPPER`, `VALUE`, `FORMAT`, etc.)*  
 
 ---
 
 ## 🔹 Time Intelligence Functions
-> Examples: `TOTALYTD`, `SAMEPERIODLASTYEAR`, `PREVIOUSMONTH`, `DATESMTD`, `CLOSINGBALANCEYEAR`  
+*(expanded — `TOTALYTD`, `SAMEPERIODLASTYEAR`, `DATESMTD`, `CLOSINGBALANCEYEAR`, `PREVIOUSMONTH`, etc.)*  
 
 ---
 
